@@ -17,7 +17,7 @@ public class Whileloop1 {
                     System.out.println("Congratulations!!!");
                     a = 1;
                 }
-                    System.out.println("You have "+i+" tries left");
+                    System.out.println("You have "+(i-1)+" tries left");
                     if (i==1){
                         a=1;
                     }
